@@ -16,7 +16,7 @@ An Agent Skill for evidence-based interview preparation and post-interview revie
 Install for all projects:
 
 ```bash
-gh skill install OWNER/prepare-review-interviews prepare-review-interviews --agent codex --scope user
+gh skill install zhechun539/prepare-review-interviews prepare-review-interviews --agent codex --scope user
 ```
 
 For the current project only, use `--scope project`. If you do not use `gh skill`, download this repository and copy `skills/prepare-review-interviews/` into the skill directory supported by your agent. Keep the entire folder structure; the skill uses its `references/` and `scripts/` directories.
